@@ -155,10 +155,10 @@ class GalleryMap extends React.Component {
           <Gallery photos={photos.slice(0,4)} onClick={this.openLightbox} />
           <div className="row" style={{marginTop:"30px"}}>
             <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h1 className="gallery-title">Peta Analisis</h1>
+                <h1 className="gallery-title">Peta Rt/Rw</h1>
             </div>
           </div>
-          <Gallery photos={photos.slice(5,18)} onClick={this.openLightbox} />
+          <Gallery photos={photos.slice(5,22)} onClick={this.openLightbox} />
         </div>
         <Lightbox images={photos}
           onClose={this.closeLightbox}
