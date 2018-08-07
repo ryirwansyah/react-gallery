@@ -4,107 +4,112 @@ import Lightbox from 'react-images';
 
 const photos = [
   {
-    src: '/media/Peta Kontur.jpg',
+    src: '/media/Peta_Kontur-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Kontur"
   }, {
-    src: '/media/PETA JARINGAN JALAN.jpg',
+    src: '/media/PETA_JARINGAN_JALAN-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Jaringan Jalan"
   }, {
-    src: '/media/PETA JARINGAN JALAN-1.jpg',
+    src: '/media/PETA_JARINGAN_JALAN-1-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Jaringan Jalan-1"
   }, {
-    src: '/media/I-1 (PETA 1). peta administrasi.jpg',
+    src: '/media/Peta_Penutup_Lahan_3-min.jpg',
+    width: 4,
+    height: 3,
+    caption: "Peta Penutup Lahan 3"
+  }, {
+    src: '/media/I-1_(PETA_1)._peta_administrasi-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Administrasi"
   }, {
-    src: '/media/III-1 (PETA 2). peta sistem perkotaan.jpg',
+    src: '/media/III-1_(PETA_2)._peta_sistem_perkotaan-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Sistem Perkotaan"
   }, {
-    src: '/media/III-2 (PETA 3). peta pengembangan permukiman.jpg',
+    src: '/media/III-2_(PETA_3)._peta_pengembangan_permukiman-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Pengembangan Permukiman"
   }, {
-    src: '/media/III-3 (PETA 4). peta pengembangan jl bebas hambatan.jpg',
+    src: '/media/III-3_(PETA_4)._peta_pengembangan_jl_bebas_hambatan-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Pengembangan Jalan Bebas Hambatan"
   }, {
-    src: '/media/III-4 (PETA 5). peta jaringan transportasii.jpg',
+    src: '/media/III-4_(PETA_5)._peta_jaringan_transportasii-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Jaringan transportasi"
   }, {
-    src: '/media/III-6 (PETA 6). peta rencana struktur ruang.jpg',
+    src: '/media/III-6_(PETA_6)._peta_rencana_struktur_ruang-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Rencana Struktur Ruang"
   }, {
-    src: '/media/IV-1.a (PETA 7). peta DAS.jpg',
+    src: '/media/IV-1.a_(PETA_7)._peta_DAS-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta DAS"
   }, {
-    src: '/media/IV-1.b (PETA 8). peta perlindungan kawasan setempat.jpg',
+    src: '/media/IV-1.b_(PETA_8)._peta_perlindungan_kawasan_setempat-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Perlindungan Kawasan Setempat"
   }, {
-    src: '/media/IV-2 (PETA 9).peta kawasan lindung.jpg',
+    src: '/media/IV-2_(PETA_9).peta_kawasan_lindung-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Kawasan Lindung"
   }, {
-    src: '/media/IV-3.(PETA 10) peta rawan bencana.jpg',
+    src: '/media/IV-3.(PETA_10)_peta_rawan_bencana-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Rawan Bencana"
   }, {
-    src: '/media/IV-4.   (PETA 11) skema evakuasi.jpg',
+    src: '/media/IV-4._(PETA_11)_skema_evakuasi-min.jpg',
     width: 4,
     height: 3,
     caption: "Skema evakuasi"
   }, {
-    src: '/media/IV-4. (PETA 12) peta sebaran kawasan tambang.jpg',
+    src: '/media/IV-4._(PETA_12)_peta_sebaran_kawasan_tambang-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Sebaran Kawasan Tambang"
   }, {
-    src: '/media/IV-5. (PETA 13) peta geologi.jpg',
+    src: '/media/IV-5._(PETA_13)_peta_geologi-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta geologi"
   }, {
-    src: '/media/IV-6. (PETA 14) peta sebaran situs wisata.jpg',
+    src: '/media/IV-6._(PETA_14)_peta_sebaran_situs_wisata-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Sebaran Situs Wisata"
   }, {
-    src: '/media/IV-7. (PETA 15) peta kawasan hankam.jpg',
+    src: '/media/IV-7._(PETA_15)_peta_kawasan_hankam-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Kawasan Hankam "
   }, {
-    src: '/media/IV-8. (PETA 16) peta rencana pola ruang.jpg',
+    src: '/media/IV-8._(PETA_16)_peta_rencana_pola_ruang-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Rencana Pola Ruang"
   }, {
-    src: '/media/V-1. (PETA 17) peta deliniasi KSN & KSK.jpg',
+    src: '/media/V-1._(PETA_17)_peta_deliniasi_KSN_&_KSK-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Deliniasi LSN & KSK"
   }, {
-    src: '/media/V-2.(PETA 18) peta kawasan strategis.jpg',
+    src: '/media/V-2.(PETA_18)_peta_kawasan_strategis-min.jpg',
     width: 4,
     height: 3,
     caption: "Peta Kawasan Strategis"
